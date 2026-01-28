@@ -2,15 +2,22 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="index.css" />
+  <meta charset="UTF-8">
+  <meta name="description"
+    content="Projects by Rajsv Mahendra including web apps, data analytics dashboards, and mobile applications.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="index.css">
   <title>Projects | Rajsv Mahendra</title>
 </head>
 
 <body>
+
   <header class="navbar">
-    <a href="index.html" class="logo">RAJSV</a>
+    <a href="index.html" class="logo">Rajsv</a>
     <nav>
       <ul class="nav-links">
         <li><a href="index.html">Home</a></li>
@@ -21,30 +28,57 @@
     </nav>
   </header>
 
-  <section class="page-header">
+  <div class="page-header">
     <h2>My Projects</h2>
-    <p class="page-subtitle">Some things I’ve built</p>
-  </section>
+    <p class="subtitle">A showcase of my recent work</p>
+  </div>
 
-  <section class="projects-section">
-    <div class="projects-grid">
+  <section class="page-section">
+    <div class="cards">
 
-      <div class="project-card">
-        <h3>Unitrack</h3>
-        <p>Student productivity app for tracking attendance and study habits.</p>
-        <span class="badge">Java</span>
+      <div class="card">
+        <img src="images/landing.png" alt="Credit Card Fraud Detection Dashboard">
+        <h3>Credit Card Fraud Detection</h3>
+        <p>
+          Live analytics dashboard to detect fraudulent credit card transactions using machine learning.
+          Features real-time visualization of transaction patterns.
+        </p>
+        <div class="skills-grid project-tags">
+          <span class="skill-tag small-tag">Python</span>
+          <span class="skill-tag small-tag">Streamlit</span>
+          <span class="skill-tag small-tag">Scikit-learn</span>
+        </div>
+        <a href="https://github.com/rajsvmahendra/Fraud-Detection-System.git" target="_blank">View on GitHub →</a>
       </div>
 
-      <div class="project-card">
-        <h3>Fraud Detection</h3>
-        <p>Machine learning system for detecting fraudulent transactions.</p>
-        <span class="badge">Python</span>
+      <div class="card">
+        <img src="images/Home Page.png" alt="India QSR Insights Dashboard">
+        <h3>India QSR Insights 2025</h3>
+        <p>
+          Business intelligence dashboard analyzing market growth, customer behavior, and nutrition risks
+          across major Indian QSR brands.
+        </p>
+        <div class="skills-grid project-tags">
+          <span class="skill-tag small-tag">Power BI</span>
+          <span class="skill-tag small-tag">DAX</span>
+          <span class="skill-tag small-tag">Excel</span>
+        </div>
+        <a href="https://github.com/rajsvmahendra/India-QSR-Insights-2025.git" target="_blank">View Report →</a>
       </div>
 
-      <div class="project-card">
-        <h3>QSR Dashboard</h3>
-        <p>Power BI dashboard analyzing Indian QSR market insights.</p>
-        <span class="badge">Power BI</span>
+      <div class="card">
+        <img src="images/unitrack.png" alt="Unitrack Mobile Application">
+        <h3>Unitrack: Student Productivity</h3>
+        <p>
+          Cross-platform mobile application for tracking attendance, study routines, and productivity trends
+          with real-time cloud synchronization.
+        </p>
+        <div class="skills-grid project-tags">
+          <span class="skill-tag small-tag">Flutter</span>
+          <span class="skill-tag small-tag">Firebase</span>
+          <span class="skill-tag small-tag">Java</span>
+        </div>
+        <a href="https://github.com/rajsvmahendra/unitrack" target="_blank">View on GitHub →</a>
       </div>
 
     </div>
@@ -53,6 +87,7 @@
   <footer>
     <p>© 2026 Rajsv Mahendra. All rights reserved.</p>
   </footer>
+
 </body>
 
 </html>
